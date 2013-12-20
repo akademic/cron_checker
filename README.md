@@ -7,6 +7,7 @@ Internals
 =========
 
 Program copy /etc/crontab and load it with command "crontab -u nobody"
-SHELL parameter subsituted with /bin/false
+
+SHELL parameter subsituted with /bin/false to prevent unnesesary run
 
 On wrong crontab config syntax checker sends error from crontab utility on emails hardcoded in utils.py
