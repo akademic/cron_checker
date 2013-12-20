@@ -3,7 +3,8 @@ cron_checker
 
 checks crontab for valid syntax and sends email with error message
 
-== Internals ==
+Internals
+=========
 
 Program copy /etc/crontab and load it with command "crontab -u nobody"
 SHELL parameter subsituted with /bin/false
